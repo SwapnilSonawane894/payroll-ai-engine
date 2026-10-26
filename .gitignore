@@ -2,3 +2,9 @@
 __pycache__/
 *.pyc
 .DS_Store
+*.db
+*.sqlite3
+payroll.db
+app/payroll.db
+*.joblib
+app/models/*.joblib
