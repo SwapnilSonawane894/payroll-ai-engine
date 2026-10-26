@@ -12,7 +12,7 @@ from sqlalchemy.orm import declarative_base, sessionmaker
 
 from app.ml_engine import OvertimeMLEngine
 
-API_KEY = os.getenv("INTEGRITY_API_KEY", "erp_ed79d5442785f7f0dbe5ca718a58cb63670f23999ce340f9")
+API_KEY = os.getenv("INTEGRITY_API_KEY")
 DATABASE_URL = "sqlite:////srv/app/payroll.db"
 
 engine = create_engine(DATABASE_URL, connect_args={"check_same_thread": False})
